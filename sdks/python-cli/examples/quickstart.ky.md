@@ -8,25 +8,25 @@
 
 Эгер сизде pipx орнотулган болсо:
 
-`sh
+```bash
 pipx install omi-cli
 omi --help
-`
+```
 
 Же болбосо, активдештирилген Python виртуалдык чөйрөсүнө орнотсоңуз болот:
 
-`sh
+```bash
 python -m pip install omi-cli
 omi --help
-`
+```
 
 ## Аккаунтуңузду туташтыруу
 
 Колдонмону колдонуудан мурун аутентификациядан өтүңүз:
 
-`sh
+```bash
 omi auth login
-`
+```
 
 Браузер ачылат. Omi аккаунтуңузга кирип, уруксат бериңиз.
 
@@ -34,20 +34,20 @@ omi auth login
 
 Эскерүүлөрүңүздү тизмелөө:
 
-`sh
+```bash
 omi memory list
-`
+```
 
 Маектериңизди тизмелөө:
 
-`sh
+```bash
 omi conversation list
-`
+```
 
 ## Чыгуу
 
 Сеансты аяктоо үчүн:
 
-`sh
+```bash
 omi auth logout
-`
+```
